@@ -1,4 +1,4 @@
 # code here!
 class School
-  attr_acessor :student, :grade
+  attr_accessor :student, :grade
 end
