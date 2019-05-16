@@ -1,4 +1,4 @@
 # code here!
 class School
-  attr_accessor :student, :grade
+  attr_accessor :name, :roster
 end
