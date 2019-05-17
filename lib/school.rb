@@ -20,6 +20,13 @@ class School
     end
   end
 
+  def sort()
+    st = {}
+    roster.each do |a, b|
+      st[a] = b.sort
+    end
+    st
+  end
 
-  
+
 end
