@@ -13,7 +13,7 @@ class School
   end
 
   def grade(level)
-    roster.detect do |a, b|
+    roster.detect do |a, b| 
       if a == level
         return b
       end
@@ -21,9 +21,9 @@ class School
   end
 
   def sort()
-    st = {}
-    roster.each do |a, b|
-      st[a] = b.sort
+    st = {} # crate an empty hash
+    roster.each do |a, b| # get each roster or every single variable of studnet and level abbv as a and b.
+      st[a] = b.sort # sort the level against the array of students
     end
     st
   end
