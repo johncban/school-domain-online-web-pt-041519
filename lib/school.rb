@@ -18,6 +18,6 @@ class School
         return b
       end
   end
-
+end
   
 end
